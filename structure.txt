@@ -1,0 +1,54 @@
+root
+├─ php_root
+│  └─ protected
+│     ├─ common
+│     │  ├─ binding
+│     │  │  └─ php_bindings
+│     │  └─ init
+│     │     └─ php_common
+│     ├─ persistence
+│     │  └─ entity
+│     │     └─ php_entities
+│     ├─ presentation
+│     │  ├─ controllers
+│     │  │  └─ php_controllers
+│     │  └─ dto
+│     │     └─ php_dto
+│     └─ services
+├─ java_root
+│  └─ za
+│     └─ co
+│        └─ rettakid
+│           └─ meds 
+│              ├─ persistence
+│              │  ├─ entity
+│              │  │  └─ java_entity
+│              │  └─ dao
+│              │     ├─ java_dao
+│              │     └─ impl
+│              │        └─ java_dao_impl
+│              │
+│              ├─ common
+│              │  └─ dto
+│              │     └─ java_dto
+│              └─ services
+│                 ├─ java_service
+│                 ├─ impl
+│                 │  └─ java_service_impl
+│                 └─ binding
+│                    └─ java_binding
+└─ android_root
+   └─ za
+      └─ co
+         └─ rettakid
+            └─ meds
+               ├─ network
+               │  └─ android_client
+               ├─ utils
+               │  └─ binding
+               │     └─ android_binding
+               └─ models
+                  ├─ vo
+                  │  └─ android_vo
+                  └─ dto
+                     └─ android_dto
